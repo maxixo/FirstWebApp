@@ -1,0 +1,13 @@
+    body {
+        background-color: bisque;   
+    }
+
+    .title {
+        font-size: 2em;
+        color : darkred
+    }
+
+    #homeTitle {
+        font-size: 3em;
+        color : darkblue
+    }
