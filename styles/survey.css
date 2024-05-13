@@ -1,21 +1,20 @@
         body {
            box-sizing: border-box;
            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          
         }
 
         .form-element {
             border : 1px solid black;
-            height : 800px;
-            width : 80%;
+            width : 75%;
             margin: auto;
             
         }
         
         .header {
             box-sizing: border-box;
-            border : 1px solid red;
-            background-color: bisque;
-            padding-left : 100px
+            padding-left : 100px;
+            background-color: white;
 
         }
         .header h1 {
@@ -34,22 +33,22 @@
         }
         
         .middle {
-            border: 1px solid blue;
+            
             padding-left: 100px ;
             padding-top: 20px;
+            background: rgb(255,255,255);
+            background: linear-gradient(172deg, rgba(255,255,255,1) 0%, rgba(253,235,233,1) 59%, rgba(252,230,228,1) 72%, rgba(251,225,223,1) 87%, rgba(251,224,222,1) 90%, rgba(251,222,221,1) 94%, rgba(251,220,220,1) 100%, rgba(251,220,218,1) 100%);
         }
         .middle h2 {
             font-size: 1.2em;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
-        }
-        .form-one {
-            border: 1px solid blue;
-            background-color: azure;
+         }
+         .form-one {
             height: 200px;
+            width:80%; 
           
-
-        }
+        } 
         /* .form-one > div {
             display: flex;
             width: 80% ;
@@ -61,44 +60,63 @@
             
         }
         .name-input{
-            border: 2px solid black;
+            border: 2px solid rgb(215, 157, 157);
             height: 30px;
-            width:320px;  
+            width:50%;  
             margin-left: 50px;
         }
 
 
         .my-gender {
             position: relative;
-            left:40px;
+            left:36px;
             font-size: 17px;           
         }
         .gender-input {
-            border: 2px solid black;
+            border: 2px solid rgb(215, 157, 157);
             position: relative;
-            left :60px;
+            left :55px;
             height: 30px;
-            width:55px;
+            width:10%;
         }
       
         .address-input {
-            border: 2px solid black;
+            border: 2px solid rgb(215, 157, 157);
             height: 30px;
-            width:515px;
+            width:81%;
             margin-left: 30px;
 
         }
         .email-input {
-            border: 2px solid black;
+            border: 2px solid rgb(215, 157, 157);
             height: 30px;
-            width:515px;
+            width:81%;
             margin-left: 53px;        
         }
         .phone-input {
-            border: 2px solid black;
+            border: 2px solid rgb(215, 157, 157);
             height: 30px;
-            width:515px;
+            width:81%;
             margin-left: 47px;    
 
+        }
+        .form-two {
+            display: flex;
+            flex-direction: column;
+            height : 600px;
+            padding-top: 30px;
+
+        }
+        .form-two > div p {
+            font-size: 17px;
+            width : 100%;
+            word-spacing: 7px;
+           
+        }
+
+        .form-two > div > input {
+            height :120px;
+            width : 77.8%;
+            border: 2px solid rgb(215, 157, 157);
         }
         
